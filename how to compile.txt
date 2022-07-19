@@ -1,0 +1,37 @@
+יצירת קבצי OBJ 
+gfortran -c bubblesort.f90
+gfortran -c bubblesort_d.f90
+gfortran -c compute_cb_cd.f90
+gfortran -c compute_initial_cb_initial_cd.f90
+gfortran -c copy_matrix.f90
+gfortran -c copy_submatrix.f90
+gfortran -c copy_to_initial_matrix.f90
+gfortran -c erase_epsilons_matrix.f90
+gfortran -c erase_epsilons_vector.f90
+gfortran -c find_exiting_id.f90
+gfortran -c find_Initial_exiting_id.f90
+gfortran -c find_Initial_most_negative.f90
+gfortran -c find_min_value.f90
+gfortran -c find_most_negative.f90
+gfortran -c Initial_set_d.f90
+gfortran -c Initial_simplex_algorithm.f90
+gfortran -c invert_matrix.f90
+gfortran -c matrix_mult.f90
+gfortran -c matrix_vector_mult.f90
+gfortran -c print_initial_solution.f90
+gfortran -c print_no_solution.f90
+gfortran -c print_original_system.f90
+gfortran -c print_solution.f90
+gfortran -c read_file.f90
+gfortran -c set_A_aux.f90
+gfortran -c set_d.f90
+gfortran -c set_Initial_A_aux.f90
+gfortran -c simplex_algorithm.f90
+gfortran -c simplex_main.f90
+gfortran -c swap_rows.f90
+gfortran -c vector_matrix_mult.f90
+gfortran -c vector_subtract.f90
+
+
+יצירת קובץ EXE בשם OUTPUT
+gfortran -o output bubblesort.o bubblesort_d.o compute_cb_cd.o compute_initial_cb_initial_cd.o copy_matrix.o copy_submatrix.o copy_to_initial_matrix.o erase_epsilons_matrix.o erase_epsilons_vector.o find_exiting_id.o find_Initial_exiting_id.o find_Initial_most_negative.o find_min_value.o find_most_negative.o Initial_set_d.o Initial_simplex_algorithm.o invert_matrix.o matrix_mult.o matrix_vector_mult.o print_initial_solution.o print_no_solution.o print_original_system.o print_solution.o read_file.o set_A_aux.o set_d.o set_Initial_A_aux.o simplex_algorithm.o simplex_main.o swap_rows.o vector_matrix_mult.o vector_subtract.o
